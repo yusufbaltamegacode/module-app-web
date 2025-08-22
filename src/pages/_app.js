@@ -1,5 +1,9 @@
-import "@/styles/globals.css";
+import { AppProvider } from "@/contexts/AppContext";
 
 export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+  return (
+    <AppProvider initialData={pageProps.initialData}>
+      <Component {...pageProps} />;
+    </AppProvider>
+  );
 }
