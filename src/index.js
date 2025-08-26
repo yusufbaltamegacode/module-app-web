@@ -1,2 +1,6 @@
+import ModuleApp from "./pages/_app";
+
 export { AppProvider } from "./contexts/AppContext";
-export { MyAppModule } from "./pages/_app";
+
+export { ModuleApp } from "./pages/_app";
+export { ModuleApp };

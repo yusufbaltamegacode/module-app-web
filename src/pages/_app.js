@@ -1,6 +1,6 @@
-import { AppProvider } from "@/contexts/AppContext";
+import { AppProvider } from "../contexts/AppContext";
 
-export default function App({ Component, pageProps }) {
+export default function ModuleApp({ Component, pageProps }) {
   return (
     <AppProvider initialData={pageProps.initialData}>
       <Component {...pageProps} />;
