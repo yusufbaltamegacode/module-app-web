@@ -1,6 +1,9 @@
 {
   "name": "module-app",
   "version": "1.0.0",
+  "workspaces": [
+    "src"
+  ],
   "private": true,
   "scripts": {
     "dev": "next dev",
