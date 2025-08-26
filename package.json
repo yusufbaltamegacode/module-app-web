@@ -2,9 +2,6 @@
   "name": "module-app",
   "version": "1.0.0",
   "main": "src/index.js",
-  "workspaces": [
-    "src"
-  ],
   "private": true,
   "scripts": {
     "dev": "next dev",
